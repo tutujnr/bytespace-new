@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-white font-sans text-sm text-ink antialiased; font-family: Satoshi, Inter, system-ui, sans-serif; }
+/* 50x50 white grid at 20% opacity, used on blue sections */
+.grid-bg { background-image: linear-gradient(rgba(255,255,255,.2) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.2) 1px, transparent 1px); background-size: 50px 50px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
